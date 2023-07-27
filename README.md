@@ -1,6 +1,6 @@
 # Island Map Builder
 
-Implemented in Go by Elli Beres
+Implemented in Go
 
 ## Screenshots
 
