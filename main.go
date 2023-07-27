@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	screen_width  = 920
-	screen_height = 920
+	screen_width  = 1000
+	screen_height = 1000
 )
 
 type Game struct {
@@ -64,7 +64,7 @@ func main() {
 			height_array[x][y] = perlin.FractalBrownianMotion(
 				float64(x),
 				float64(y),
-				3,
+				2,
 				permutation_array,
 			)
 		}
